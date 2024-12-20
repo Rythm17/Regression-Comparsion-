@@ -40,28 +40,20 @@ The output consists of:
   - Mean Squared Error (MSE)
   - R² Score
 
-### Model Evaluation Results
+### Model Performance (R² Scores)
 
-| Model                  | Mean Squared Error (MSE) | R² Score |
-|------------------------|--------------------------|----------|
-| Linear Regression      | 622.36                  | 0.6943   |
-| Random Forest          | 455.73                  | **0.7762** (Best) |
-| Gradient Boosting      | 478.92                  | 0.7717   |
-| Lasso Regression       | 615.12                  | 0.6973   |
-| Ridge Regression       | 620.88                  | 0.6944   |
-| Decision Tree          | 818.86                  | **0.5950** (Worst) |
-## Output
+| Model                    | R² Score |
+|--------------------------|-----------|
+| Linear Regression        | 0.6943    |
+| Random Forest Regressor  | 0.7762    |
+| Gradient Boosting        | 0.7717    |
+| Lasso Regression         | 0.6973    |
+| Ridge Regression         | 0.6944    |
+| Decision Tree Regressor  | 0.5950    |
 
-The script outputs:
-
-- A numerical comparison of R² scores for all models.
-- Identification of the best and worst performing models.
-- A bar chart visualizing the R² scores of all models.
-  
 ### Output Graph
 
 ![image](https://github.com/user-attachments/assets/b002bdb1-5514-49b1-9f87-88e13c89896c)
-
 
 ### Best Model
 - **Random Forest Regressor** with an R² score of **0.7762**
@@ -74,7 +66,6 @@ The script outputs:
 - Evaluate multiple regression models.
 - Automatically identifies the best and worst performing models based on R² scores.
 - Visualizes model performance using a bar chart.
-
 
 ## Key Learning Outcomes
 
